@@ -2,7 +2,7 @@
 @AbapCatalog.enhancementCategory : #NOT_EXTENSIBLE
 @AbapCatalog.tableCategory : #TRANSPARENT
 @AbapCatalog.deliveryClass : #A
-@AbapCatalog.dataMaintenance : #LIMITED
+@AbapCatalog.dataMaintenance : #ALLOWED
 define table zsales_order {
   key client      : abap.clnt not null;
   key sales_order : abap.char(10) not null;
